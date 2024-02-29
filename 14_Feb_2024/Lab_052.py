@@ -26,7 +26,7 @@ print("List after inserting 'a' at index 1:", my_list)
 my_list.remove('a')
 print("List after removing 'a':", my_list)
 
-# clear()
+# copy()
 my_copy_list = my_list.copy()
 print(my_copy_list)
 
