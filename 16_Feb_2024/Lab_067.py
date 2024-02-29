@@ -1,4 +1,5 @@
 t = ("TheTestingAcademy", "for", "TheTestingAcademy")
+print(type(t))
 print(set(t))
 
 set1 = {1, 2, 3}
