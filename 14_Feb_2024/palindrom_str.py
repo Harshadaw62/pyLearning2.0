@@ -6,13 +6,11 @@ def reverse_str(str):
 
 
 org_str = input("Enter string: ")
-org_str=org_str.lower()
-revs_str=reverse_str(org_str)
+org_str = org_str.lower()
+revs_str = reverse_str(org_str)
 print(f"Reverse string is {revs_str}")
 
-if org_str==revs_str:
+if org_str == revs_str:
     print("String is palindrome")
 else:
     print("String is not palindrome")
-
-
